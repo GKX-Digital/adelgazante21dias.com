@@ -18,11 +18,11 @@
 }
 
 @media only screen and (max-width: 769px){
-  .desktop{display:none;}
+  .desktop{display:none;!important}
 }
 
 @media only screen and (min-width: 769px){
-  .mobile{display:none;}
+  .mobile{display:none;!important}
 }
 
 * {
@@ -59,7 +59,7 @@ body {
   padding: 0;
   margin: 10px 0;
   width: 100%;
-  font-weight: 400;
+  font-weight: 400!important;
 }
 
 .fb-comments-reply-wrapper {
