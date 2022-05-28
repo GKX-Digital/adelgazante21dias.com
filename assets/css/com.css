@@ -17,6 +17,14 @@
   }
 }
 
+@media only screen and (max-width: 769px){
+  .desktop{display:none;}
+}
+
+@media only screen and (min-width: 769px){
+  .mobile{display:none;}
+}
+
 * {
   font-family: helvetica, arial, sans-serif;
 }
@@ -51,6 +59,7 @@ body {
   padding: 0;
   margin: 10px 0;
   width: 100%;
+  font-weight: 400;
 }
 
 .fb-comments-reply-wrapper {
